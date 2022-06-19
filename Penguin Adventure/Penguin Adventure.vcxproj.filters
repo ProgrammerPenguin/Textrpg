@@ -18,33 +18,39 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="title.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="player.cpp">
+    <ClCompile Include="scene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="character.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="monster.cpp">
+    <ClCompile Include="village.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h">
+    <ClInclude Include="main.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="title.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="player.h">
+    <ClInclude Include="scene.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="character.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="monster.h">
+    <ClInclude Include="village.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

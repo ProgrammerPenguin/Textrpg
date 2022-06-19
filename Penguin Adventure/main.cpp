@@ -1,14 +1,38 @@
-﻿#include "header.h"
-#include "player.h"
-#include "monster.h"
+﻿#include "main.h"
+#include "village.h"
 
+Player Penguin;
+Stage stage;
+
+int Input_Key()
+{
+	int temp = _getch();
+	
+	return temp;
+}
+
+char* Enter_Key()
+{
+	char temp;
+	cin >> temp;
+
+	return &temp;
+}
+
+int HPcount = 0;
+int MPcount = 0;
 int main()
 {
-	Player player("penguin", 300, 300 ,300,330 ,"strong atk", 300 ,200);
-
-	player.Info();
+	srand(time(NULL));
 	
-	PolorBear polorbear;
+	PlaySound(TEXT("bgm.wav"), NULL, SND_ASYNC | SND_LOOP);
 
-	polorbear.Info();
+	system("mode con cols=120 lines=60");
+	Title();
+
+	system("mode con cols=150 lines=40");
+	Intro();
+
+	Village();
+	
 }

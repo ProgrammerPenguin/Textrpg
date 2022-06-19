@@ -1,6 +1,10 @@
-﻿  main.cpp
-C:\Users\KGA_19\Desktop\Textrpg. PenguinAdventrue\Textrpg\Penguin Adventure\Penguin Adventure\monster.h(1,1): warning C4828: 파일에 0x2d7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
-  monster.cpp
-C:\Users\KGA_19\Desktop\Textrpg. PenguinAdventrue\Textrpg\Penguin Adventure\Penguin Adventure\monster.h(1,1): warning C4828: 파일에 0x2d7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+﻿  character.cpp
+  item.cpp
+  main.cpp
+C:\Users\WooJIn\Desktop\Textrpg\Penguin Adventure\main.cpp(26,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  scene.cpp
+  stage.cpp
+  village.cpp
   코드를 생성하고 있습니다...
-  Penguin Adventure.vcxproj -> C:\Users\KGA_19\Desktop\Textrpg. PenguinAdventrue\Textrpg\Penguin Adventure\x64\Debug\Penguin Adventure.exe
+C:\Users\WooJIn\Desktop\Textrpg\Penguin Adventure\main.cpp(19): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+  Penguin Adventure.vcxproj -> C:\Users\WooJIn\Desktop\Textrpg\x64\Debug\Penguin Adventure.exe
