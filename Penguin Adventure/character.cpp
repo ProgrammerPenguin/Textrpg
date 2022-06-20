@@ -70,13 +70,13 @@ void Character::SetGold(int gold)
 /// <summary>
 /// player 함수
 /// </summary>
-Player::Player() : _maxmp(100), _nowmp(100), _skill_name("마구때리기"), _skill_damage(150), _skill_usemp(50),Character()
+Player::Player() : _maxmp(300), _nowmp(300), _skill_name("마구때리기"), _skill_damage(300), _skill_usemp(50),Character()
 {
 	_name = "펭귄";
 	_maxhp= 30000;
 	_nowhp= 30000;
-	_atk = 100;
-	_gold= 1000;
+	_atk = 200;
+	_gold= 10000;
 }
 
 Player::Player(int maxMp, int mp, string skill_name, int skill_damage, int skill_usemp) : _maxmp(maxMp), _nowmp(mp), _skill_name(skill_name), _skill_damage(skill_damage), _skill_usemp(skill_usemp)

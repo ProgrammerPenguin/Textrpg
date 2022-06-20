@@ -112,7 +112,7 @@ void Stage::Battle(int stagesize)
 			Choice(stagesize, &Fox);
 		}
 		break;
-	case 2: Seal.SetMonster("ºÏ±Ø ¹°°³", 300, 30, 200);
+	case 2: Seal.SetMonster("ºÏ±Ø ¹°°³", 500, 50, 300);
 		cout << Seal.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : ¹úÃ³·³ ³¯¾Æ¼­ ³ªºñÃ³·³ Âî¸£±â!!\n";
 		Input_Key();
@@ -122,7 +122,7 @@ void Stage::Battle(int stagesize)
 			Choice(stagesize,&Seal);
 		}
 		break;
-	case 3: Wolf.SetMonster("ºÏ±Ø ´Á´ë", 300, 30, 200);
+	case 3: Wolf.SetMonster("ºÏ±Ø ´Á´ë", 700, 70, 400);
 		cout << Wolf.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : ³Í ÀÌ¹Ì Á×¾îÀÖ´Ù.\n";
 		Input_Key();
@@ -132,7 +132,7 @@ void Stage::Battle(int stagesize)
 			Choice(stagesize, &Wolf);
 		}
 		break;
-	case 4: PolorBear.SetMonster("ºÏ±Ø °õ", 300, 30, 200);
+	case 4: PolorBear.SetMonster("ºÏ±Ø °õ", 900, 90, 600);
 		cout << PolorBear.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : ³ÊÈñ ³ª¶ó·Î µ¹¾Æ°¡!!\n";
 		Input_Key();
@@ -156,7 +156,7 @@ void Stage::Bossbattle(int stagesize)
 	int stage = stagesize / 5;
 	switch (stage)
 	{
-	case 1: CaptainFox.SetMonster("´ëÀå ºÏ±Ø ¿©¿ì", 300, 30, 200);
+	case 1: CaptainFox.SetMonster("´ëÀå ºÏ±Ø ¿©¿ì", 600, 60, 400);
 		cout << CaptainFox.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : ¿©¿ì ´ëÀåµµ ±Í¿©¿ö!!\n";
 		Input_Key();
@@ -167,7 +167,7 @@ void Stage::Bossbattle(int stagesize)
 		}
 		isclaer1 = true;
 		break;
-	case 2: CaptainSeal.SetMonster("´ëÀå ºÏ±Ø ¹°°³", 300, 30, 200);
+	case 2: CaptainSeal.SetMonster("´ëÀå ºÏ±Ø ¹°°³", 1000, 100, 600);
 		cout << CaptainSeal.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : Æë±ÏÃ³·³ ³¯¾Æ¼­ !!!!\n";
 		Input_Key();
@@ -178,7 +178,7 @@ void Stage::Bossbattle(int stagesize)
 		}
 		isclaer2 = true;
 		break;
-	case 3: CaptainWolf.SetMonster("´ëÀå ºÏ±Ø ´Á´ë", 300, 30, 200);
+	case 3: CaptainWolf.SetMonster("´ëÀå ºÏ±Ø ´Á´ë", 1200, 130, 1200);
 		cout << CaptainWolf.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : ¿À¸¶¿¡¿Í ¸ð ½Åµ¥ÀÌ·ç.\n";
 		Input_Key();
@@ -189,7 +189,7 @@ void Stage::Bossbattle(int stagesize)
 		}
 		isclaer3 = true;
 		break;
-	case 4: CaptainPolorBear.SetMonster("Æú¶óº£¾î", 300, 30, 200);
+	case 4: CaptainPolorBear.SetMonster("Æú¶óº£¾î", 2000, 200, 0);
 		cout << CaptainPolorBear.GetName() << "¸¦ ¸¶ÁÖÃÆ´Ù.\n"
 			"Æë±Ï : ¾îÀÌ °õÅÊÀÌ ÈÉÃÄ°£ º¸¼® ³»³ö.\n";
 		Input_Key();
